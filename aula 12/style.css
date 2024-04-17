@@ -1,0 +1,30 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(15,109,131);
+    background: linear-gradient(90deg, rgba(15,109,131,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+section{
+    width: 50%;
+    height: 80%;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+}
+
+h1,h2{
+    color:linear-gradient(90deg, rgba(15,109,131,1) 35%, rgba(0,212,255,1) 100%);
+}
